@@ -55,10 +55,10 @@ On the training dataset, the combination of Count Vectorizer and Logistic Regres
 On the other hand, though the combination of Tf-Idf Vectorizer and Random Forest Classifier was giving only 76% precision on the training data set, it was giving much better results on the test dataset.
 
 The results showcasing the various product attributes and the sentiments around them is displayed below:
-
+![alt text](https://github.com/rprajapati1/ReviewDigest/blob/master/TestResults.png)
 
 The overall sentiment of the product is:
-
+![alt text](https://github.com/rprajapati1/ReviewDigest/blob/master/OverallProductSentiment.png)
 
 ##Contributors
 - Ankur Kumar
