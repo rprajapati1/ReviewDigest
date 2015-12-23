@@ -54,6 +54,12 @@ This involved finding which combination of vectorizer and classifiers works the 
 On the training dataset, the combination of Count Vectorizer and Logistic Regression Classifier gave a precision of 81%. However, running this combination on the test dataset made us realize that Count Vectorizer and Logistic Regression Classifier were over-fitting on the training data set and not producing as good results as expected.
 On the other hand, though the combination of Tf-Idf Vectorizer and Random Forest Classifier was giving only 76% precision on the training data set, it was giving much better results on the test dataset.
 
+The results showcasing the various product attributes and the sentiments around them is displayed below:
+
+
+The overall sentiment of the product is:
+
+
 ##Contributors
 - Ankur Kumar
 - Keshav Potluri
