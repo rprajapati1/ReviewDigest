@@ -54,11 +54,19 @@ This involved finding which combination of vectorizer and classifiers works the 
 On the training dataset, the combination of Count Vectorizer and Logistic Regression Classifier gave a precision of 81%. However, running this combination on the test dataset made us realize that Count Vectorizer and Logistic Regression Classifier were over-fitting on the training data set and not producing as good results as expected.
 On the other hand, though the combination of Tf-Idf Vectorizer and Random Forest Classifier was giving only 76% precision on the training data set, it was giving much better results on the test dataset.
 
-The results showcasing the various product attributes and the sentiments around them is displayed below:
+###Results on Test Data
+The results showcasing the various product attributes of Samsung Galaxy S5 (http://www.amazon.com/Samsung-Galaxy-S5-Verizon-Wireless/product-reviews/B00IZ1XVAC/ref=cm_cr_pr_btm_link_2?ie=UTF8&showViewpoints=1&sortBy=bySubmissionDateDescending&pageNumber=1) and the sentiments around them is displayed below:
 ![alt text](https://github.com/rprajapati1/ReviewDigest/blob/master/TestResults.png)
 
-The overall sentiment of the product is:
+The overall sentiment of Samsung Galaxy S5 is:
 ![alt text](https://github.com/rprajapati1/ReviewDigest/blob/master/OverallProductSentiment.png)
+
+###Results on a small test data
+Our algorithm gave surprisingly good results on a product with very less number of reviews (226 reviews currently) for LG Nexus 5 (http://www.amazon.com/LG-Unlocked-Quad-Core-Smartphone-Multi-Touchscreen/dp/B00GD5V5WI/ref=sr_1_3?s=wireless&ie=UTF8&qid=1450915417&sr=1-3&keywords=nexus+5) as shown below.:
+![alt text](https://github.com/rprajapati1/ReviewDigest/blob/master/NexusTestResults.png)
+
+The overall sentiment of Samsung Galaxy S5 is:
+![alt text](https://github.com/rprajapati1/ReviewDigest/blob/master/NexusOverall.png)
 
 ##Contributors
 - Ankur Kumar
